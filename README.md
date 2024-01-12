@@ -1,5 +1,3 @@
-# 刷题
-1. 300道题
-2. 500道题
-3. 800道题
-
+# Plan
+I will complete 2 leetcode problem every day.  
+The Github repository record my code solution for leetcode problem.
