@@ -22,3 +22,8 @@ String.valueOf()
 
 String.format()
 ```
+
+## string length
+```
+String.length()
+```
