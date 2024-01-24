@@ -7,4 +7,4 @@ The Github repository record my code solution for leetcode problem.
 - 2024.01.14 412 1342
 - 2024.01.18 876 383
 - 2024.01.23 704
-- 2024.01.24
+- 2024.01.24 27 35 34 69 26 283 844
