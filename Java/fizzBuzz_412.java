@@ -1,3 +1,7 @@
+import java.util.ArrayList;
+import java.util.List;
+
+class Solution {
     public List<String> fizzBuzz(int n) {
         List<String> ans = new ArrayList<>();
         for(int i = 0; i < n; i++) {
@@ -17,7 +21,7 @@
         return ans;
     }
 
-    public List<String> fizzBuzz(int n) {
+    public List<String> fizzBuzz_2 (int n) {
         List<String> ans = new ArrayList<>();
         for(int i = 1; i <= n; i++) {
             if(i % 3 == 0 && i % 5 == 0) {
@@ -33,3 +37,4 @@
         }
         return ans;
     }
+}

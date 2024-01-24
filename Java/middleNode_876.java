@@ -9,6 +9,16 @@
  * }
  */
 class Solution {
+
+    public class ListNode {
+        int val;
+        ListNode next;
+        ListNode() {}
+        ListNode(int val) { this.val = val; }
+        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+        
+    }
+
     public ListNode middleNode(ListNode head) {
         int i = 0;
         ListNode first = head;
@@ -23,29 +33,9 @@ class Solution {
         }
         return second;
     }
+
+    // Space Complexity: O(1)
+    // Time Complexity: O(n)
+    // 100%
 }
 
-// Space Complexity: O(1)
-// Time Complexity: O(n)
-// 100%
-
-
-// Solution 2
-public boolean canConstruct(String ransomNote, String magazine) {
-    if(ransomNote.length() > magazine.length()) {
-        return false;
-    }
-    
-    int[] letter = new int[26];
-    for(char c : magazine.toCharArray()) {
-        letter[c-'a']++;
-    }
-    for(char c : ransomNote.toCharArray()) {
-        if(letter[c-'a'] == 0) {
-            return false;
-        } else {
-            letter[c-'a']--;
-        }
-    }
-    return true;
-}

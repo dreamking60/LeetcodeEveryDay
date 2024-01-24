@@ -1,3 +1,4 @@
+class Solution{
     public int[] runningSum(int[] nums) {
         int len = nums.length;
         int[] res = new int[len];
@@ -7,3 +8,5 @@
         }
         return res;
     }
+}
+    

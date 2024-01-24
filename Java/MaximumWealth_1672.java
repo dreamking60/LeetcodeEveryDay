@@ -1,3 +1,4 @@
+class Solution{
     public int maximumWealth(int[][] accounts) {
         int[] result = new int[accounts.length];
         int max = 0;
@@ -11,3 +12,4 @@
         }
         return max;
     }
+}

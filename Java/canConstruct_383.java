@@ -15,6 +15,26 @@ class Solution {
         }
         return true;
     }
+
+        // Solution 2
+    public boolean canConstruct_2(String ransomNote, String magazine) {
+        if(ransomNote.length() > magazine.length()) {
+            return false;
+        }
+        
+        int[] letter = new int[26];
+        for(char c : magazine.toCharArray()) {
+            letter[c-'a']++;
+        }
+        for(char c : ransomNote.toCharArray()) {
+            if(letter[c-'a'] == 0) {
+                return false;
+            } else {
+                letter[c-'a']--;
+            }
+        }
+        return true;
+    }
 }
 
 // Space Complexity: O(1)
