@@ -55,3 +55,8 @@ class Main {
     }
 }
 ```
+
+## ToUpper Case
+```
+char toUpperCase(char ch)
+```
