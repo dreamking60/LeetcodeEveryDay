@@ -10,4 +10,4 @@ The Github repository record my code solution for leetcode problem.
 - 2024.01.24 27 35 34 69 26 283 844
 - 2024.01.25 977 367 209                     
 - 2024.01.27 904
-- 2024.01.28 WeeklyContest383 100195 100206 100215 100179
+- 2024.01.28 WeeklyContest383--100195,100206,100215,100179(3019-3022)
