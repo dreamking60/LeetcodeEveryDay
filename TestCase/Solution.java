@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-class Solution {
+public class Solution {
     public String minWindow(String s, String t) {
         int len_s = s.length();
         int len_t = t.length();
@@ -35,10 +35,10 @@ class Solution {
                 s_map.put(s.charAt(post), s_map.getOrDefault(s.charAt(post), 0)+1);
                 post++;
             } else {
-                break;
+                return "";
             }
         }
-        return min == Integer.MAX_VALUE ? "" : s.substring(min_prev, min_post);
+        return s.substring(min_prev, min_post);
     }
 
     public boolean containMap(Map<Character, Integer> a, Map<Character, Integer> b) {
@@ -52,7 +52,4 @@ class Solution {
         }
         return true;
     }
-
-    // Time Complexity: O(n)
-    // Space Complexity: O(n)
-} 
+}
