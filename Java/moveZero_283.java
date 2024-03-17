@@ -1,4 +1,4 @@
-class Solution {
+public class moveZero_283 {
 
     // method1
     public void moveZeroes_1(int[] nums) {

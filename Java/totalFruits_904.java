@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-class Solution {
+public class totalFruits_904 {
     public int totalFruit(int[] fruits) {
         //Method1: 类似于双指针法(Double Pointer)
         Map<Integer, Integer> key = new HashMap<>();

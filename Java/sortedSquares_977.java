@@ -1,4 +1,4 @@
-class Solution {
+public class sortedSquares_977 {
     // Method1: 找最小值顺着做
     public int[] sortedSquares(int[] nums) {
         if(nums[0] >= 0) {

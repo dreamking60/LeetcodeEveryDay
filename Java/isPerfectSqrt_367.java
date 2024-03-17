@@ -1,4 +1,4 @@
-class Solution {
+public class isPerfectSqrt_367 {
     public boolean isPerfectSquare(int num) {
         int left = 1;
         int right = num;

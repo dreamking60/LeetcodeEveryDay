@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-class Solution {
+public class minWindow_76 {
     public String minWindow(String s, String t) {
         int len_s = s.length();
         int len_t = t.length();

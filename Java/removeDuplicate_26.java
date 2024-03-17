@@ -1,4 +1,4 @@
-class Solution {
+public class removeDuplicate_26 {
     public int removeDuplicates(int[] nums) {
         // 快慢指针
         if(nums.length <= 1) {

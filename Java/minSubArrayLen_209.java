@@ -1,4 +1,4 @@
-class Solution {
+public class minSubArrayLen_209 {
     public int minSubArrayLen(int target, int[] nums) {
         int left = 0;
         int right = 0;
