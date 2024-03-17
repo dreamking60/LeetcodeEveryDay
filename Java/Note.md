@@ -79,3 +79,8 @@ public class ListNode {
    }
 }
 ```
+
+## Reverse String
+```java
+String rev = new StringBuilder(s).reverse().toString();
+```

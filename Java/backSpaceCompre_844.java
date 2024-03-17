@@ -1,4 +1,4 @@
-class Solution {
+public class backSpaceCompre_844 {
     // method1: 标准双指针
     public boolean backspaceCompare(String s, String t) {
         char[] s_char = s.toCharArray();

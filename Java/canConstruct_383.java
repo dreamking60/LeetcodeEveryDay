@@ -1,4 +1,4 @@
-class Solution {
+public class canConstruct_383 {
     public boolean canConstruct(String ransomNote, String magazine) {
         int[] letterR = new int[26];
         int[] letterM = new int[26];
