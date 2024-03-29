@@ -1,16 +1,27 @@
 public class jumpGame2_45 {
     public int jump(int[] nums) {
         int n = nums.length;
-        int[] dp = new int[n];
-        for(int i = 0; i < n; i++) {
-            for(int j = 1; j <= nums[i]; j++) {
-                if(dp[i+j] == 0 || dp[i+j] > dp[i] + 1) {
-                    dp[i+j] = dp[i] + 1;
-                }
+        if(n == 1) return 0;
+
+        int max = Math.min(nums[0], n-1);
+        int newMax = 0;
+        int step = 1;
+        int cur = 1;
+        while(true) {
+            newMax = 0;
+            if(max >= n-1) {
+                return step;
             }
+            for(int i = cur; i <= max; i++) {
+                newMax = Math.max(newMax, i+nums[i]);
+            }
+            cur = max+1;
+            max = newMax;
+            step++;
+            
         }
-        return dp[n-1];
+
     }
-    // Time Complexity: O(n^2)
-    // Space Complexity: O(n) 
+    // Time Complexity: O(n)
+    // Space Complexity: O(1)
 }
