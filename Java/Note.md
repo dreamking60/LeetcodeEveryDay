@@ -84,3 +84,10 @@ public class ListNode {
 ```java
 String rev = new StringBuilder(s).reverse().toString();
 ```
+
+## Random
+```java
+   Random rand = new Random();
+   int randNum = rand.nextInt(list.size());
+   Element res = list.get(randNum);
+```

@@ -17,3 +17,6 @@ The Github repository record my code solution for leetcode problem.
 - 2024.03.16 122 55
 - 2024.03.17 3083 3084 3085 45
 - 2024.03.18 45 274
+- 2024.04.03 380_1 380_2
+- 2024.04.04 238 134
+- 2024.04.07 135
