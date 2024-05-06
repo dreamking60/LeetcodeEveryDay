@@ -24,4 +24,4 @@ The Github repository record my code solution for leetcode problem.
 - 2024.04.13 151
 - 2024.04.14 6
 - 2024.04.16 28
-- 2024.05.03 
+- 2024.05.03 68 125
