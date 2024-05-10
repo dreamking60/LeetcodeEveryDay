@@ -25,5 +25,6 @@ public class twoSum_167 {
         } 
         return new int[]{-1,-1};
     }
+    // Time complexity: O(n)
     
 }
