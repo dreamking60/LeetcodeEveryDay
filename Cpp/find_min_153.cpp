@@ -41,3 +41,29 @@ public:
         return nums[right];
     }
 };
+
+// 3rd solution: O(logn)
+class Solution {
+public:
+    int findMin(vector<int>& nums) {
+        int len = nums.size();
+        int left = 0;
+        int right = len-1;
+        int mid = 0;
+        
+        while(left < right) {
+            mid = left + (right - left)/2;
+            if(nums[left] < nums[right]) {
+                return nums[left];
+            }
+            
+            if(nums[mid] < nums[right]) {
+                right = mid;
+            } else {
+                left = mid+1;
+            }
+        }
+
+        return nums[left];
+    }
+};
