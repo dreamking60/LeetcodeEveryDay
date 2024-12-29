@@ -30,3 +30,5 @@ The Github repository record my code solution for leetcode problem.
 - 2024.05.11 209
 - 2024.12.25 C - 217 121 238 1
 - 2024.12.26 C - 53 152(check) 153
+- 2024.12.27 C - 33
+- 2024.12.28 C - 15 11 104 100 226 124
