@@ -3,6 +3,28 @@
 #include <map>
 using namespace std;
 
+// Recommend Solution: O(n^2)
+class Solution {
+public:
+    long long numberOfSubsequences(vector<int>& nums) {
+        long long count = 0;
+        int len = nums.size();
+        unordered_map<double, int> valid;
+
+        for(int r = 4; r < len-2; r++) {
+            int q = r-2;
+            for(int p = 0; p < q-1; p++) {
+                valid[(double)nums[p] / (double)nums[q]]++;
+            }
+            for(int s = r+2; s < len; s++) {
+                count += valid[(double)nums[s] / (double)nums[r]];
+            }
+        }
+
+        return count;
+    }
+};
+
 // Final Solution: O(n^2logn)
 class Solution {
 public:
