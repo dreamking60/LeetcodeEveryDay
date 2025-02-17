@@ -38,3 +38,4 @@ The Github repository record my code solution for leetcode problem.
 - 2024.01.17 C - 2683 2425
 - 2024.01.18 C - 2429 (Week Contest Q1)
 - 2024.02.03 C - 572 105
+- 2024.02.11 C - 80 98
