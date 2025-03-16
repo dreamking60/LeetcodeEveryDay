@@ -41,3 +41,5 @@ The Github repository record my code solution for leetcode problem.
 - 2024.02.11 C - 80 98
 - 2024.02.17 C - 206 141 21
 - 2024.03.01 C - 23 19
+- 2024.03.03 C - 143
+- 2024.03.15 C - Weekly Contest Q1 Q2
