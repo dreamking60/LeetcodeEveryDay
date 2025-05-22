@@ -45,3 +45,5 @@ The Github repository record my code solution for leetcode problem.
 - 2024.03.15 C - Weekly Contest Q1 Q2
 - 2024.05.18 C - 30
 - 2024.05.19 C - 36 48 73 289
+- 2024.05.20 C - 383 205 290 49
+- 2024.05.22 C - 292 219 128(*Need Review*)
