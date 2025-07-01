@@ -47,3 +47,6 @@ The Github repository record my code solution for leetcode problem.
 - 2024.05.19 C - 36 48 73 289
 - 2024.05.20 C - 383 205 290 49
 - 2024.05.22 C - 292 219 128(*Need Review*) 203 24 206 707 19(*Need Review*)
+- 2024.05.24 C - 228 56 160
+- 2024.06.03 C - 57 452 20 71
+- 2024.06.04 C - 150
