@@ -1,18 +1,21 @@
 // Leetcode 236: Lowest Common Ancestor of a Binary Tree
 // https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
 
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     TreeNode *left;
- *     TreeNode *right;
- *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
- * };
- */
-// 1. DFS + two vector
 #include <vector>
 using namespace std;
+
+/**
+ * Definition for a binary tree node.
+ */
+struct TreeNode {
+    int val;
+    TreeNode *left;
+    TreeNode *right;
+    TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+};
+
+// 1. DFS + two vector
+
 class Solution {
 public:
     bool dfs(TreeNode* root, TreeNode* t, vector<TreeNode*>& v) {

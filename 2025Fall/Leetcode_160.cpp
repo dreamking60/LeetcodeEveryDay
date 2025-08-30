@@ -1,18 +1,19 @@
 // Leetcode 160: Intersection of Two Linked Lists
 // https://leetcode.com/problems/intersection-of-two-linked-lists/
+#include <set>
+using namespace std;
 
 /**
  * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode(int x) : val(x), next(NULL) {}
- * };
  */
+struct ListNode {
+    int val;
+    ListNode *next;
+    ListNode(int x) : val(x), next(NULL) {}
+};
 
 // 1. Hash Set
-#include <set>
-using namespace std;
+
 class Solution {
 public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {

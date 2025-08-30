@@ -1,6 +1,10 @@
 // Leetcode 221: Maximal Square
 // https://leetcode.com/problems/maximal-square/
 
+// 1. DP O(mn)
+#include <vector>
+#include <algorithm>
+using namespace std;
 class Solution {
     public:
         int maximalSquare(vector<vector<char>>& matrix) {
