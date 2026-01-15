@@ -26,4 +26,27 @@ public:
     }
 };
 
-//
+// 2. Single array (an update of method 1)
+// Time: O(n)
+// Space: O(1)
+class Solution {
+public:
+    int maxProfit(vector<int>& prices) {
+        int res = 0;
+        int n = prices.size();
+        vector<int> end(prices);
+
+        for(int i = n-2; i >= 0; i--) {
+            if(end[i] < end[i+1]) {
+                end[i] = end[i+1];
+            }
+        }
+
+        for(int i = 0; i < n; i++) {
+            if(end[i] - prices[i] > res) {
+                res = end[i] - prices[i];
+            }
+        }
+        return res;
+    }
+};
